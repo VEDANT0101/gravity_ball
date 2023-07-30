@@ -1,0 +1,33 @@
+Fall Ball Game Javascript Tutorial for Beginners Source Code 
+
+1. Design Html & CSS for game and character
+2. on button press move character left and right
+	- Create two function which moves character
+	- Get position of character using getComputedStyle() function
+	- Add 3px to character to move character to right
+	- Minus 3px to character to move character to right
+	- On event keydrown using event know which key is pressed
+	- If ArrowLeft is clicked add moveLeft function
+	- If ArrowRight is clicked add moveRight function
+	- Move character to left if less than 300px
+	- Move character to right if greater than 0px
+	- Make sure one function runs at a time
+3. Create hole and block using javascript
+	- Append div to game container for hole and block
+	- Style hole and block
+	- Add random position to hole
+	- Add this append code to setInterval
+	- add counter to block and hole's Id
+4. Move the Block on the Game container
+	- Get previous appended block using counter  1
+	- get previous appended block top position
+	- Get only above values when counter is greater than 0
+	- append after only if block position is below 500px
+5. Move your block upward
+	- create array and append the counter to array
+	- run forloop and add -0.5 to top of every block 
+	- remove the block and counter in array once it croses game div
+6. Add game Logic
+	- get character left and top position
+	
+
